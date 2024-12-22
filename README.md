@@ -10,3 +10,12 @@ Gestion des abonnements.
 Prérequis
 Une bibliothèque SMTP pour l'envoi d'emails (comme libcurl avec SMTP).
 Une base de données pour stocker les informations des clients et des campagnes (comme SQLite).
+
+Explications:
+Gestion des clients: Les informations des clients sont stockées dans une structure Client.
+Création et envoi de campagnes: Les campagnes sont créées et envoyées par email aux clients abonnés.
+Gestion des abonnements: Les abonnements des clients peuvent être gérés via une interface simple.
+Notes:
+Pour un produit commercial, vous devrez ajouter des fonctionnalités avancées telles que l'authentification des utilisateurs, la gestion des paiements, le suivi des campagnes, des rapports détaillés, etc.
+Assurez-vous de respecter les lois et règlements concernant l'envoi d'emails marketing, comme le RGPD en Europe.
+Ce code est un point de départ et devra être étendu et sécurisé avant d'être utilisé en production.
